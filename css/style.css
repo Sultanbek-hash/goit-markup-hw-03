@@ -149,6 +149,20 @@ ul,li{
 }
 /*end*/
 /*feature items*/
+.hidden-text,
+.first-link{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin: auto;
+}
+.vissual-hidden{
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .feature-container{
     display: flex;
     flex-wrap: wrap;
